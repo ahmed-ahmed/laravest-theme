@@ -1,0 +1,45 @@
+.navbar {
+	color: $primary-color;
+	font-size: 16px;
+    margin-top:0;
+    padding:12px;
+    transition: background-color 0.2s linear,left 0.3s ease;
+    .navbar-toggle {
+        @include background-opacity($primary-color, 0.5);
+    }
+    .navbar-brand {
+        font-family: 'Bubblegum Sans', cursive;
+        font-weight: bold;
+        color: #d9edf7;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #888;
+    }
+}	
+.dark{
+    @include background-opacity($secondary-color, 0.7);
+    .navbar-toggle {
+        background-color: #515151
+    }
+}
+
+.navbar-nav > li > a {
+	color: $primary-color;
+    font-weight: 600;
+    font-size:15px;
+}
+
+.nav > li.active> a,.nav > li > a:hover, .nav > li > a:focus {
+    @include background-opacity($secondary-color, 0.2);
+	// background: $primary-color;
+	color: $primary-color;
+}
+.navbar-nav > li > .btn {
+    margin-top: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}

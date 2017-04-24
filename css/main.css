@@ -1,3 +1,128 @@
+.banner {
+  height: 589px;
+  min-height: 589px;
+  background: url("../img/bannerbg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0;
+  color: #000; }
+  .banner h1 {
+    font-weight: 600; }
+  .banner h2 {
+    font-size: 25px; }
+  .banner a {
+    margin-top: 50px; }
 
+.section-1 h2 {
+  color: #000;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px; }
+.section-1 p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 25px; }
+
+.planner-joe {
+  margin-top: 20px;
+  background: url("../img/planner-joe.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 300px; }
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+  .planner-joe {
+    background-attachment: scroll; } }
+.our-approach {
+  margin-bottom: 100px; }
+  .our-approach i {
+    font-size: 40px; }
+  .our-approach fa-handshake-o {
+    color: #3c763d; }
+  .our-approach .fa-area-chart {
+    color: #8a6d3b; }
+  .our-approach .fa-balance-scale {
+    color: #ffca95; }
+  .our-approach .fa-refresh {
+    color: #9795ff; }
+  .our-approach h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 100px 0 50px; }
+  .our-approach h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px; }
+  .our-approach p {
+    font-size: 16px;
+    line-height: 25px; }
+
+.action {
+  background: #f5f5f5;
+  padding-bottom: 80px; }
+  .action h2 {
+    margin-top: 80px;
+    margin-bottom: 40px; }
+
+.tea-party {
+  background: url("../img/teaparty.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 300px; }
+
+.navbar {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 0;
+  padding: 12px;
+  transition: background-color 0.2s linear,left 0.3s ease; }
+  .navbar .navbar-toggle {
+    background: #fff;
+    /* The Fallback */
+    background: rgba(255, 255, 255, 0.5); }
+  .navbar .navbar-brand {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    color: #d9edf7;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px; }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: #888; }
+
+.dark {
+  background: #000;
+  /* The Fallback */
+  background: rgba(0, 0, 0, 0.7); }
+  .dark .navbar-toggle {
+    background-color: #515151; }
+
+.navbar-nav > li > a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px; }
+
+.nav > li.active > a, .nav > li > a:hover, .nav > li > a:focus {
+  background: #000;
+  /* The Fallback */
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff; }
+
+.navbar-nav > li > .btn {
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+body {
+  font-size: 14px;
+  line-height: 14px;
+  color: #666;
+  font-family: 'Roboto',sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

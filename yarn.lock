@@ -75,6 +75,10 @@ rx@2.3.24:
   version "2.3.24"
   resolved "https://registry.yarnpkg.com/rx/-/rx-2.3.24.tgz#14f950a4217d7e35daa71bbcbe58eff68ea4b2b7"
 
+skrollr@^0.6.26:
+  version "0.6.26"
+  resolved "https://registry.yarnpkg.com/skrollr/-/skrollr-0.6.26.tgz#65d1aafcc69fc6d27e6cff0f086c25b31b20ab18"
+
 spawn-command@^0.0.2-1:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/spawn-command/-/spawn-command-0.0.2.tgz#9544e1a43ca045f8531aac1a48cb29bdae62338e"

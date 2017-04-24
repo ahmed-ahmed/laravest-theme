@@ -1,0 +1,17 @@
+@import './_mixins.scss';
+@import './_variables.scss';
+@import './_modules.scss';
+@import './_nav.scss';
+
+body{
+	font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    //font-family: 'Bubblegum Sans', cursive;
+    font-family:'Roboto',sans-serif;
+    //font-family: brandon-grotesque,Helvetica,sans-serif;
+
+    //font-family: 'Montserrat', sans-serif;
+    //font-family: "proxima-nova",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    //Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
