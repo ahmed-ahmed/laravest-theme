@@ -6,14 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run serve\"  \" npm run watch-css \"",
-    "serve": "autoreload-server -w '**/**.*' . 8089",
+    "serve": "autoreload-server -- -w '**/**.*' . 8089",
     "watch-css": "npm run build-css -- --watch",
-    "build-css": "sass scss/main.scss:css/main.css"
+    "build-css": "node-sass scss/main.scss css/main.css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^3.4.0"
+    "concurrently": "^3.4.0",
+    "simple-autoreload-server": "^0.2.6",
+    "node-sass": "^4.5.2"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
