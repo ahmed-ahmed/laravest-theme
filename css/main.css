@@ -13,6 +13,11 @@
   .banner a {
     margin-top: 50px; }
 
+.our-client {
+  padding: 50px 0; }
+  .our-client i {
+    font-size: 50px; }
+
 .section-1 h2 {
   color: #000;
   margin-top: 100px;
@@ -123,6 +128,10 @@
 
 body {
   font-size: 14px;
-  line-height: 14px;
+  line-height: 25px;
   color: #666;
   font-family: 'Roboto',sans-serif; }
+
+.dark {
+  background: #3D566E;
+  color: #eee; }

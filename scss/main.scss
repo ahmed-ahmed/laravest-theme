@@ -5,7 +5,8 @@
 
 body{
 	font-size: 14px;
-    line-height: 14px;
+    line-height: 25px;
+    // letter-spacing: 20px;
     color: #666;
     //font-family: 'Bubblegum Sans', cursive;
     font-family:'Roboto',sans-serif;
@@ -14,4 +15,9 @@ body{
     //font-family: 'Montserrat', sans-serif;
     //font-family: "proxima-nova",Arial,"Helvetica Neue",Helvetica,sans-serif;
     //Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.dark{
+	background: $dark-bg;
+	color: $dark-bg-color;
 }
